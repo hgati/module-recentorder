@@ -5,7 +5,7 @@
             <general>
                 <enabled>1</enabled>
                 <fakeinfo>1</fakeinfo>
-                <product_ids>5,10,15,20</product_ids>
+                <product_ids>16511,16512,16513</product_ids>
                 <faketime>a few minutes ago, 5 minutes ago, 15 minutes ago</faketime>
                 <fakeaddress>Hanoi - VN, New York - US, Sydney - Australia</fakeaddress>
                 <limit>10</limit>
