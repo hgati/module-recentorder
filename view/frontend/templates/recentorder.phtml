@@ -42,6 +42,7 @@ use Magento\Framework\App\Action\Action;
 		     * Position for actions regarding image size changing in vde if needed
 		     */
 		    $pos = $block->getPositioned();
+ 		    $pos = ($pos===null)?'':$pos;			
 		    ?>
 		    <?php 
 		        $showCart       = 1;
@@ -58,7 +59,7 @@ use Magento\Framework\App\Action\Action;
 		                <div class="product-item-info" data-container="product-grid">
 		                    <?php
 		                    $productImage = $block->getImage($_product, $image);
-		                    if ($pos != null) {
+		                    if (!empty($pos)) {
 		                        $position = ' style="left:' . $productImage->getWidth() . 'px;'
 		                            . 'top:' . $productImage->getHeight() . 'px;"';
 		                    }
