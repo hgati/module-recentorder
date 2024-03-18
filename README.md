@@ -1,4 +1,4 @@
-Magento2 RecentOrder Notify On Frontend
+# Magento2 RecentOrder Notify On Frontend
 
 ```
 composer require hgati/recentorder
